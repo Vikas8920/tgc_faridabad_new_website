@@ -1970,16 +1970,19 @@ button {
 
 .footer_content form {
     margin-top: 35px;
-    position: relative;
+    /* position: relative; */
+}
+.footer_content form input{
+    height: 40px;
 }
 
 .footer_content form button {
-    /* width: 100%; */
+    width: 100%;
     background: var(--colorPrimary);
     color: var(--colorWhite);
     border-radius: 8px;
     padding: 9.5px 15px;
-    font-size: 14px;
+    font-size: 16px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -1989,13 +1992,18 @@ button {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    position: absolute;
+    /* position: absolute; */
     top: 5px;
     right: 5px;
 }
 
-.footer_content form button:hover {
+/* .footer_content form button:hover {
     background: var(--colorBlue);
+} */
+
+.branches{
+    display: flex;
+    justify-content: end;
 }
 
 .footer_location p {
