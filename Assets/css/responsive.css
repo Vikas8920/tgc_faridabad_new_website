@@ -32,9 +32,6 @@
     .blog .shape_1 {
         right: 2%;
     }
-    .branches{
-        justify-content: start;
-    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -130,9 +127,6 @@
     .footer_bottom p,
     .footer_bottom li a {
         font-size: 15px;
-    }
-    .branches{
-        justify-content: start;
     }
 
     .blog .shape_1,
@@ -371,9 +365,6 @@
 
     .footer_bottom {
         margin-top: 0;
-    }
-    .branches{
-        justify-content: start;
     }
 
     /* home page end */
