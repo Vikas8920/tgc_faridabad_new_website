@@ -2001,11 +2001,6 @@ button {
     background: var(--colorBlue);
 } */
 
-.branches{
-    display: flex;
-    justify-content: end;
-}
-
 .footer_location p {
     margin-top: 30px;
     padding-left: 35px;
