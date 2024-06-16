@@ -129,8 +129,8 @@ $(function () {
     $('.testi_slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         dots: false,
         arrows: true,
         nextArrow: '<i class="far fa-angle-right nextArrow"></i>',
